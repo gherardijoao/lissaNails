@@ -353,7 +353,7 @@ const Home: React.FC = () => {
           </div>
           <div className="footer-contact">
             <h3>Contato</h3>
-            <p>Email: contato@leticianaildeisgner.com</p>
+            <p>Email: contato@LarissaNailDesigner.com</p>
             <p>Telefone: (00) 00000-0000</p>
             <div className="social-icons">
               <motion.a
