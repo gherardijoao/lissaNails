@@ -8,9 +8,6 @@ const App: React.FC = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* Add additional routes as needed */}
-        {/* <Route path="/servicos" element={<Services />} /> */}
-        {/* <Route path="/contato" element={<Contact />} /> */}
       </Routes>
     </Router>
   );
