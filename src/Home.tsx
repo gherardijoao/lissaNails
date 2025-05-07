@@ -155,7 +155,10 @@ const Home: React.FC = () => {
             durabilidade e estilo em cada detalhe. Unhas impecáveis, feitas sob
             medida para realçar sua personalidade.
           </motion.p>
-          <motion.button
+          <motion.a
+            href="https://wa.me/5535991578568?text=Oie%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!%20%E2%98%BA%EF%B8%8F"
+            target="_blank"
+            rel="noopener noreferrer"
             custom={2}
             variants={textReveal}
             whileHover={{
@@ -166,7 +169,7 @@ const Home: React.FC = () => {
             className="cta-button"
           >
             Agende agora
-          </motion.button>
+          </motion.a>
         </div>
       </motion.section>
 
@@ -322,7 +325,10 @@ const Home: React.FC = () => {
                 </motion.li>
               ))}
             </motion.ul>
-            <motion.button
+            <motion.a
+              href="https://wa.me/5535991578568?text=Oie%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!%20%E2%98%BA%EF%B8%8F"
+              target="_blank"
+              rel="noopener noreferrer"
               className="cta-button"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -334,7 +340,7 @@ const Home: React.FC = () => {
               whileTap={{ scale: 0.98 }}
             >
               Agende agora
-            </motion.button>
+            </motion.a>
           </motion.div>
         </div>
       </motion.section>
@@ -357,7 +363,7 @@ const Home: React.FC = () => {
             <p>Telefone: (00) 00000-0000</p>
             <div className="social-icons">
               <motion.a
-                href="#"
+                href="https://www.instagram.com/larissamarques_nails/"
                 aria-label="Instagram"
                 whileHover={{ y: -5, scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
@@ -365,7 +371,7 @@ const Home: React.FC = () => {
                 <Instagram size={24} />
               </motion.a>
               <motion.a
-                href="#"
+                href="https://wa.me/5535991578568?text=Oie%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!%20%E2%98%BA%EF%B8%8F"
                 aria-label="WhatsApp"
                 whileHover={{ y: -5, scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
