@@ -148,7 +148,8 @@ const Home: React.FC = () => {
       >
         <div className="hero-content">
           <motion.h1 custom={0} variants={textReveal}>
-            Unhas feitas sob medida<span className="accent-dot">.</span>
+            Especialista em unhas personalizadas
+            <span className="accent-dot">.</span>
           </motion.h1>
           <motion.p custom={1} variants={textReveal}>
             Olá, sou Larissa Marques Nail Designer e te proporciono beleza,
@@ -163,9 +164,7 @@ const Home: React.FC = () => {
             variants={textReveal}
             whileHover={{
               scale: 1.05,
-              boxShadow: "0px 8px 20px rgba(23, 101, 113, 0.25)",
             }}
-            whileTap={{ scale: 0.98 }}
             className="cta-button"
           >
             Agende agora
@@ -190,19 +189,19 @@ const Home: React.FC = () => {
             {[
               {
                 title: "Alongamento",
-                desc: "As unhas de gel são uma técnica de alongamento profissional na qual você escolhe o tamanho e formato que desejar, podendo optar por modelagens mais discretas ou unhas mais longas e estilosas. Uma das técnicas mais versáteis e elegantes entre as opções de alongamento existentes no mercado.",
+                desc: "Ele é feito no molde f1, tem como maior vantagem a rapidez de sua aplicação e traz um resultado com a mesma resistência que qualquer outro extensor, mantendo sua naturalidade para um alongamento mais bonito.",
               },
               {
                 title: "Blindagem",
-                desc: "A blindagem de unhas é um tipo de esmaltação em gel que forma uma camada mais resistente e durável do que as esmaltações comuns. A técnica proporciona brilho às unhas naturais, fortalecendo-as, além de aumentar a durabilidade do esmalte. Perfeito para quem quer unhas mais fortes, bonitas e duradouras.",
+                desc: "É um procedimento que fortalece e protege as unhas naturais, usando uma camada de base, sem a aplicação do gel construtor. Evita quebras e lascas, ajuda no crescimento saudável, pode ser usada com ou sem esmalte.Perfeita pra quem quer unhas mais fortes, bonitas e duradouras!",
               },
               {
                 title: "Banho de Gel",
-                desc: "O banho de gel é ideal para quem deseja aumentar a resistência das unhas naturais. Ideal para proteger o esmalte da unha natural e proporcionar mais durabilidade do que uma esmaltação comum, além de garantir um acabamento mais brilhante e uniforme.",
+                desc: "Fazê-lo sobre as unhas pode trazer muitas vantagens. Mais que proteger e permitir que a unha não quebre, o processo também permite criar a durabilidade que você tanto almeja sem precisar aumentar o tamanho da unha.",
               },
               {
                 title: "Esmaltação",
-                desc: "A esmaltação em gel é o procedimento mais procurado nos salões. Tem maior durabilidade que a esmaltação tradicional e mantém o brilho por muito mais tempo, sem quebrar ou descascar. A unhas não amassam, riscos e imperfeições são corrigidos facilmente.",
+                desc: "Esmaltação comum é a aplicação de esmalte nas unhas, feita após a limpeza, preparação e finalização com brilho.É o jeito tradicional de deixar as unhas bonitas, com cor e bem cuidadas.",
               },
             ].map((service, index) => (
               <motion.div
