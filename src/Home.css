@@ -41,11 +41,12 @@ h3 {
 }
 
 h1 {
-  font-size: 90px;
+  font-size: 75px;
   line-height: 1.1;
   margin-bottom: 30px;
-  margin-left: -150px;
+  margin-left: -85px;
   white-space: nowrap;
+  text-align: left;
 }
 
 h2 {
@@ -451,11 +452,8 @@ img {
 /* Responsive styles */
 @media (max-width: 1200px) {
   h1 {
-    font-size: 72px;
-    line-height: 1.1;
-    margin-bottom: 30px;
-    margin-left: -150px;
-    white-space: nowrap;
+    font-size: 60px;
+    margin-left: -40px;
   }
 
   .services-grid {
@@ -466,11 +464,8 @@ img {
 
 @media (max-width: 1024px) {
   h1 {
-    font-size: 64px;
-    line-height: 1.1;
-    margin-bottom: 30px;
-    margin-left: -100px;
-    white-space: nowrap;
+    font-size: 55px;
+    margin-left: -30px;
   }
 
   .header,
@@ -486,21 +481,17 @@ img {
 
 @media (max-width: 880px) {
   h1 {
-    font-size: 58px;
-    line-height: 1.1;
-    margin-bottom: 30px;
-    margin-left: -50px;
-    white-space: nowrap;
+    font-size: 52px;
+    margin-left: -40px;
   }
 }
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 48px;
-    line-height: 1.1;
-    margin-bottom: 30px;
+    font-size: 42px;
     margin-left: 0;
     white-space: normal;
+    text-align: center;
   }
 
   .header {
@@ -570,11 +561,10 @@ img {
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 38px;
-    line-height: 1.1;
-    margin-bottom: 30px;
+    font-size: 36px;
     margin-left: 0;
     white-space: normal;
+    text-align: center;
   }
 
   h2 {
