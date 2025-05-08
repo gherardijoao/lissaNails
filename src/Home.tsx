@@ -466,7 +466,7 @@ const Home: React.FC = () => {
             <h3>Contato</h3>
             <p>Instagram: <a href="https://www.instagram.com/larissamarques_nails/">@larissamarques_nails</a></p>
             <p>Telefone: <a href="https://wa.me/5535991578568?text=Oie%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!%20%E2%98%BA%EF%B8%8F"
-                aria-label="WhatsApp">(35) 99144-2214</a></p>
+                aria-label="WhatsApp">(35) 991578568</a></p>
             <div className="social-icons">
               <motion.a
                 href="https://www.instagram.com/larissamarques_nails/"
