@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import "./Home.css";
 import logo from "./assets/logo.svg";
 import logoWhite from "./assets/logoWhite.svg";
-import { Instagram as InstagramIcon, MessageCircle, Menu, X } from "lucide-react";
+import { Instagram as InstagramIcon, MessageCircle, Menu, X, ArrowRight } from "lucide-react";
 // Make sure to place your logo in the assets folder
 
 // Sample images for the gallery - replace with your actual images
@@ -272,12 +272,10 @@ const Home: React.FC = () => {
             rel="noopener noreferrer"
             custom={2}
             variants={textReveal}
-            whileHover={{
-              scale: 1.05,
-            }}
             className="cta-button"
           >
             Agende agora
+            <ArrowRight />
           </motion.a>
         </div>
       </motion.section>
@@ -446,6 +444,7 @@ const Home: React.FC = () => {
               whileTap={{ scale: 0.98 }}
             >
               Agende agora
+              <ArrowRight />
             </motion.a>
           </motion.div>
         </div>
