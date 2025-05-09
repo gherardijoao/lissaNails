@@ -1,4 +1,3 @@
-Site for a nail designer
 # Lissa Nails
 
 Website profissional portfólio para nail designer. Um site moderno e elegante que apresenta seus serviços, galeria de trabalhos e informações de contato.
