@@ -9,10 +9,10 @@ import { Instagram as InstagramIcon, MessageCircle, Menu, X, ArrowRight } from "
 // Sample images for the gallery - replace with your actual images
 import galleryImg1 from "./assets/gallery1.jpeg";
 import galleryImg2 from "./assets/gallery2.jpeg";
-import galleryImg3 from "./assets/gallery3.jpeg";
-import galleryImg4 from "./assets/gallery4.jpeg";
-import galleryImg5 from "./assets/gallery5.jpeg";
-import galleryImg6 from "./assets/gallery6.jpeg";
+import galleryImg3 from "./assets/nova04.jpeg";
+import galleryImg4 from "./assets/nova01.jpeg";
+import galleryImg5 from "./assets/nova02.jpeg";
+import galleryImg6 from "./assets/nova03.jpeg";
 import profileImg from "./assets/profile.jpeg";
 // Enhanced animation variants
 const fadeIn = {
@@ -341,10 +341,10 @@ const Home: React.FC = () => {
         <div className="gallery-container">
           <div className="gallery-grid">
             {[
-              { img: galleryImg1, wide: false },
-              { img: galleryImg2, wide: false },
-              { img: galleryImg3, wide: false },
-              { img: galleryImg4, wide: false },
+              { img: galleryImg1, wide: false,},
+              { img: galleryImg2, wide: false,},
+              { img: galleryImg3, wide: false, className: "centered-img" },
+              { img: galleryImg4, wide: false, className: "top-aligned02" },
               { img: galleryImg5, wide: false, className: "top-aligned" },
               { img: galleryImg6, wide: false },
             ].map((item, index) => (

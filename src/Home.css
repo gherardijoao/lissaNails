@@ -310,7 +310,11 @@ img {
 }
 
 .gallery-item img.top-aligned {
-  object-position: 50% 0%;
+  object-position: 50% 60%;
+}
+
+.gallery-item img.top-aligned02 {
+  object-position: 50% 70%;
 }
 
 /* About section styles */
