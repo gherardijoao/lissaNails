@@ -343,7 +343,7 @@ const Home: React.FC = () => {
             {[
               { img: galleryImg1, wide: false,},
               { img: galleryImg2, wide: false,},
-              { img: galleryImg3, wide: false, className: "centered-img" },
+              { img: galleryImg3, wide: false },
               { img: galleryImg4, wide: false, className: "top-aligned02" },
               { img: galleryImg5, wide: false, className: "top-aligned" },
               { img: galleryImg6, wide: false },
@@ -414,7 +414,7 @@ const Home: React.FC = () => {
               variants={sectionVariants}
             >
               {[
-                "Certificação em Nail Art Avançada",
+
                 "Especialista em Alongamentos",
                 "Técnica em Blindagem Profissional",
                 "Design de Unhas Personalizado",
