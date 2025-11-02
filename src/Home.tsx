@@ -13,6 +13,9 @@ import galleryImg3 from "./assets/nova04.jpeg";
 import galleryImg4 from "./assets/nova01.jpeg";
 import galleryImg5 from "./assets/nova02.jpeg";
 import galleryImg6 from "./assets/nova03.jpeg";
+import galleryImg7 from "./assets/gallery03.jpeg";
+import galleryImg8 from "./assets/gallery04.jpeg"; 
+import galleryImg9 from "./assets/gallery05.jpeg";
 import profileImg from "./assets/profile.jpeg";
 // Enhanced animation variants
 const fadeIn = {
@@ -346,7 +349,10 @@ const Home: React.FC = () => {
               { img: galleryImg3, wide: false },
               { img: galleryImg4, wide: false, className: "top-aligned02" },
               { img: galleryImg5, wide: false, className: "top-aligned" },
-              { img: galleryImg6, wide: false },
+              { img: galleryImg6, wide: false, className: "top-aligned02" },
+              { img: galleryImg7, wide: false, className: "top-aligned03"},
+              { img: galleryImg8, wide: false, className: "top-aligned" },
+              { img: galleryImg9, wide: false, },
             ].map((item, index) => (
               <motion.div
                 key={index}

@@ -317,6 +317,10 @@ img {
   object-position: 50% 70%;
 }
 
+.gallery-item img.top-aligned03 {
+  object-position: 50% 65%;
+}
+
 /* About section styles */
 .about {
   padding: 120px 70px;
