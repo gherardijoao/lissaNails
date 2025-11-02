@@ -310,10 +310,6 @@ const Home: React.FC = () => {
                 title: "Banho de Gel",
                 desc: "Fazê-lo sobre as unhas pode trazer muitas vantagens. Mais que proteger e permitir que a unha não quebre, o processo também permite criar a durabilidade que você tanto almeja sem precisar aumentar o tamanho da unha.",
               },
-              {
-                title: "Esmaltação",
-                desc: "Esmaltação comum é a aplicação de esmalte nas unhas, feita após a limpeza, preparação e finalização com brilho.É o jeito tradicional de deixar as unhas bonitas, com cor e bem cuidadas.",
-              },
             ].map((service, index) => (
               <motion.div
                 key={service.title}
@@ -403,15 +399,15 @@ const Home: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.7 }}
             >
-             Me chamo Larissa, tenho 20 anos e sou profissional Nail Designer, atuando com foco na naturalidade e delicadeza em cada detalhe do meu trabalho. Busco constantemente o aprimoramento das minhas técnicas, mantendo-me atualizada com as tendências e inovações do mercado, sempre com o objetivo de oferecer o melhor para cada cliente.
+             Me chamo Larissa, tenho 20 anos e sou profissional Nail Designer, atuando com foco na naturalidade e Nail Art. Busco constantemente o aprimoramento das minhas técnicas, mantendo-me atualizada com as tendências e inovações do mercado, sempre com o objetivo de oferecer o melhor para cada cliente.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.7 }}
             >
-              Especializada em alongamentos, manutenção, blindagem, unhas de gel
-              e esmaltação, meu compromisso é proporcionar não apenas um resultado estético de qualidade, mas também uma experiência de cuidado e confiança.
+              Especializada em alongamentos, manutenção, blindagem e Nail Art.
+              Meu compromisso é proporcionar não apenas um resultado estético de qualidade, mas também uma experiência de cuidado e confiança.
             </motion.p>
             <motion.ul
               className="certifications"
