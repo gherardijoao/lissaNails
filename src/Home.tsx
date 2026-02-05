@@ -466,12 +466,13 @@ const Home: React.FC = () => {
           </div>
           <div className="footer-contact">
             <h3>Contato</h3>
-            <p>Instagram: <a href="https://www.instagram.com/larissamarques_nails/">@larissamarques_nails</a></p>
-            <p>Telefone: <a href="https://wa.me/5535991578568?text=Oie%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!%20%E2%98%BA%EF%B8%8F"
+            <p>Instagram: <a href="https://www.instagram.com/lissanailss_/">@lissanailss_</a></p>
+            <p>Telefone: <a href="https://wa.me/5535991578568?text=Oie%2C%20gostaria%20de%20agendar%20um%20hor%C3%A7rio!%20%E2%98%BA%EF%B8%8F"
                 aria-label="WhatsApp">(35) 991578568</a></p>
+            <p>Endereço: <a href="https://share.google/bO199du5JKBxV2xFn" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>R. Costa Pereira, 26 - Vila Brasilia, Lavras - MG, 37200-160</a></p>
             <div className="social-icons">
               <motion.a
-                href="https://www.instagram.com/larissamarques_nails/"
+                href="https://www.instagram.com/lissanailss_/"
                 aria-label="Instagram"
                 whileHover={{ y: -5, scale: 1.1 }}
               >
