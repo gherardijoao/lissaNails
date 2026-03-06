@@ -178,7 +178,7 @@ const Home: React.FC = () => {
           animate="visible"
           variants={logoReveal}
         >
-          <img src={logo} alt="Larissa Marques Nail" className="logo" />
+          <img src={logo} alt="Larissa Marques Nail Design Lavras" className="logo" />
         </motion.div>
         <nav className="nav">
           <motion.ul
@@ -261,11 +261,11 @@ const Home: React.FC = () => {
       >
         <div className="hero-content">
           <motion.h1 custom={0} variants={textReveal}>
-            Especialista em unhas personalizadas
+            Nail Design em Lavras - Unhas personalizadas
             <span className="accent-dot">.</span>
           </motion.h1>
           <motion.p custom={1} variants={textReveal}>
-            Olá, sou Larissa Marques Nail Designer e te proporciono beleza,
+            Olá, sou Larissa Marques, Nail Designer em Lavras-MG. Te proporciono beleza,
             durabilidade e estilo em cada detalhe. Unhas impecáveis, feitas sob
             medida para realçar sua personalidade.
           </motion.p>
@@ -359,7 +359,7 @@ const Home: React.FC = () => {
               >
                 <motion.img
                   src={item.img}
-                  alt="Unhas"
+                  alt={`Nail design Lavras - Unhas decoradas por Larissa Marques ${index + 1}`}
                   className={item.className}
                   whileHover={{ scale: 1.07 }}
                   transition={{ duration: 0.6 }}
@@ -386,7 +386,7 @@ const Home: React.FC = () => {
           >
             <motion.img
               src={profileImg}
-              alt="Larissa Marques"
+              alt="Larissa Marques - Nail Designer em Lavras MG"
               initial={{ filter: "grayscale(100%)" }}
               whileInView={{ filter: "grayscale(0%)" }}
               transition={{ duration: 1.5 }}
@@ -399,15 +399,15 @@ const Home: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.7 }}
             >
-             Me chamo Larissa, tenho 20 anos e sou profissional Nail Designer, atuando com foco na naturalidade e Nail Art. Busco constantemente o aprimoramento das minhas técnicas, mantendo-me atualizada com as tendências e inovações do mercado, sempre com o objetivo de oferecer o melhor para cada cliente.
+             Me chamo Larissa, tenho 20 anos e sou Nail Designer profissional em Lavras-MG, atuando com foco na naturalidade e Nail Art. Busco constantemente o aprimoramento das minhas técnicas, mantendo-me atualizada com as tendências e inovações do mercado, sempre com o objetivo de oferecer o melhor atendimento em nail design na região de Lavras.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.7 }}
             >
-              Especializada em alongamentos, manutenção, blindagem e Nail Art.
-              Meu compromisso é proporcionar não apenas um resultado estético de qualidade, mas também uma experiência de cuidado e confiança.
+              Especializada em alongamentos, manutenção, blindagem e Nail Art em Lavras.
+              Meu compromisso é proporcionar não apenas um resultado estético de qualidade, mas também uma experiência de cuidado e confiança para todas as clientes da região.
             </motion.p>
             <motion.ul
               className="certifications"
@@ -462,7 +462,7 @@ const Home: React.FC = () => {
       >
         <div className="footer-content">
           <div className="footer-logo">
-            <img src={logoWhite} alt="Larissa Marques Nail" />
+            <img src={logoWhite} alt="Larissa Marques Nail Design Lavras MG" />
           </div>
           <div className="footer-contact">
             <h3>Contato</h3>

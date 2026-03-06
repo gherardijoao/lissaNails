@@ -1,0 +1,10 @@
+# robots.txt for Larissa Marques Nails
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://larissamarquesnails.com.br/sitemap.xml
+
+# Disallow admin pages (if any in the future)
+Disallow: /admin/
+Disallow: /private/
