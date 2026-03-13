@@ -261,7 +261,7 @@ const Home: React.FC = () => {
       >
         <div className="hero-content">
           <motion.h1 custom={0} variants={textReveal}>
-            Nail Design em Lavras - Unhas personalizadas
+            Especialista em unhas personalizadas
             <span className="accent-dot">.</span>
           </motion.h1>
           <motion.p custom={1} variants={textReveal}>
